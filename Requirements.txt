@@ -1,0 +1,9 @@
+gradio
+langchain
+langchain-community
+langchain_huggingface
+huggingface
+huggingface-hub
+chromadb
+PyMuPDF
+sentence-transformers
