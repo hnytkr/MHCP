@@ -11,8 +11,8 @@ import pyttsx3  # For Text-to-Speech
 import speech_recognition as sr  # For Speech-to-Text
 
 # Hugging Face API Login
-login("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")
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+login("token")
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "token"
 
 chain = None  # Global variable for chatbot
 

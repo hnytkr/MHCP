@@ -8,10 +8,10 @@ from langchain.document_loaders import PyMuPDFLoader
 import os
 from huggingface_hub import login
 
-login("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")
+login("token")
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "token"
 
 chain = None
 
