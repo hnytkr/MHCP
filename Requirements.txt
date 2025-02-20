@@ -7,3 +7,5 @@ huggingface-hub
 chromadb
 PyMuPDF
 sentence-transformers
+pyttsx3
+speech_recognition
